@@ -5,6 +5,7 @@ header {
 header .nav-bar {
   padding-top: 20px;
 }
+
 header .hamburger {
   z-index: 1000;
   padding-top: 20px;
@@ -14,7 +15,6 @@ header .hamburger {
   cursor: pointer;
 }
 header span {
-  background-color: #CD7E50;
   display: block;
   width: 55px;
   height: 5px;
