@@ -1,0 +1,166 @@
+
+section{
+    width: 100vw;
+}
+
+a{
+    color: #0A3140;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #CD7E50;
+}
+
+
+
+.main-heading{
+    font-family: "baloo";
+    font-size: 50px;
+    color: #0A3140;
+}
+
+.heading{
+ font-family: "baloo";
+ font-size: 37px;
+ color: #0A3140;
+
+ span{
+    font-size: 45px;
+    color: #CD7E50; 
+ }
+}
+
+.sect-heading{
+    font-family: "baloo";
+    font-size: 37px;
+    line-height: 58.24px;
+    color: #CD7E50;
+}
+
+.p-text{
+    font-family: "regularbaloo2";
+    font-size: 19px;
+    color: #0A3140; 
+    line-height: 30.44px;
+}
+
+.card-heading{
+ font-family: "baloo2";
+ font-size: 28px;
+ color: #CD7E50;
+}
+
+.card-ptext{
+    font-family: "regularbaloo2";
+    font-size: 17px;
+    line-height: 27.23px;
+}
+
+
+
+.subscribe-btn{
+    width: 319px;
+    height: 70px;
+    background-color: #0B394D;
+    color: #ffff;
+    font-family: "baloo2";
+    font-size: 25px;
+    border: none;
+}
+
+#infor-btn{
+    width: 290px;
+    padding: 20px;
+    border-radius: 2px;
+    color: #0A3140;
+    border: none;
+    font-family: "regularbaloo2";
+}
+
+#message-btn{
+    padding: 100px;
+    border-radius: 2px;
+    color: #0A3140;
+    border: none;
+    font-family: "regularbaloo2";
+}
+
+#submit-btn{
+    width: 299px;
+    padding: 20px;
+    background-color: #0B394D;
+    color: #ffff;
+    border: none;
+    font-family: "baloo2";
+    font-size: 25px;
+}
+
+
+
+
+@media (min-width: 768px) {
+   
+    #infor-btn{
+        width: 531px;
+        height: 56px;
+    }
+    
+    #message-btn{
+        width: 531px;
+        height: 184px;
+    }
+    
+    #submit-btn{
+        width: 531px;
+        height: 68px;
+    }
+}
+
+
+
+
+@media(min-width: 900px)  {
+    
+}
+
+
+
+
+@media (min-width: 1200px) {
+    .main-heading{
+        font-size: 90px;
+    }
+
+    .heading{
+        font-size: 45px;
+    }
+
+    .sect-heading{
+        font-family: "baloo";
+        font-size: 45px;
+        line-height: 70.83px;
+        color: #CD7E50;
+    }
+}
+
+
+
+
+@media (min-width: 1440px) {
+    .main-heading{
+        font-size: 105px;
+    } 
+
+    .heading{
+        font-size: 55px;
+
+        span{
+            font-size: 70px;
+        }
+    }
+
+    .sect-heading{
+        font-size: 55px;
+    }
+}
