@@ -148,10 +148,7 @@ header .sidebar--open {
   margin-top: 53px;
   text-align: center;
 }
-#about .image {
-  -o-object-fit: contain;
-     object-fit: contain;
-}
+
 #about img {
   width: 100%;
 }
